@@ -10,6 +10,7 @@ public class playerMovement : MonoBehaviour
 
     public AudioSource audioSource;
     public AudioClip step;
+    public float turnSpeed = 140.0f;
 
     // Start is called before the first frame update
     void Start()
@@ -38,6 +39,9 @@ public class playerMovement : MonoBehaviour
         {
             anim.SetBool("isWalking", false);
         }
+        float verticalInput = Input.GetAxis("Vertical");
+        float horizontalInput = Input.GetAxis("Horizontal");
+        transform.Rotate(Vector3.up, Time.deltaTime * turnSpeed * horizontalInput);
 
         /* // If S key is down, walk backwards
         if(Input.GetKey(KeyCode.S))
