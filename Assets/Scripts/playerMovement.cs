@@ -30,6 +30,10 @@ public class playerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        float verticalInput = Input.GetAxis("Vertical");
+        float horizontalInput = Input.GetAxis("Horizontal");
+        transform.Rotate(Vector3.up, Time.deltaTime * turnSpeed * horizontalInput);
+
         // If W key is down, walk forward
         if(Input.GetKey(KeyCode.W))
         {
@@ -39,10 +43,16 @@ public class playerMovement : MonoBehaviour
         {
             anim.SetBool("isWalking", false);
         }
-        float verticalInput = Input.GetAxis("Vertical");
-        float horizontalInput = Input.GetAxis("Horizontal");
-        transform.Rotate(Vector3.up, Time.deltaTime * turnSpeed * horizontalInput);
 
+        // If R key is down, run forward
+        if(Input.GetKey(KeyCode.R))
+        {
+            anim.SetBool("isRunning", true);
+        }
+        else
+        {
+            anim.SetBool("isRunning", false);
+        }
     } 
 
     private void Step()
