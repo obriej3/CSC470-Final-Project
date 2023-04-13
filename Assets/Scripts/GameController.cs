@@ -46,4 +46,9 @@ public class GameController : MonoBehaviour
         instructionsPanel.SetActive(false);
         menuPanel.SetActive(true);
     }
+
+    public void ExitGame()
+    {
+        Application.Quit();
+    }
 }

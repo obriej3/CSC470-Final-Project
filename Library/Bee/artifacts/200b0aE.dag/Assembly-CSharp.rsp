@@ -352,6 +352,7 @@
 "Assets/Scripts/DayNightCycle.cs"
 "Assets/Scripts/GameController.cs"
 "Assets/Scripts/playerMovement.cs"
+"Assets/TheGamingPeople/Shed Bridge Tools and Fences/Scripts/ShedCameraController.cs"
 -langversion:9.0
 
 /deterministic
