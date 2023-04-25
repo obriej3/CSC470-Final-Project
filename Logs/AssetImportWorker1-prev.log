@@ -2,11 +2,11 @@ Unity Editor version:    2021.3.16f1 (4016570cf34f)
 Branch:                  2021.3/staging
 Build type:              Release
 Batch mode:              YES
-macOS version:           Version 11.7.4 (Build 20G1120)
-Darwin version:          20.6.0
-Architecture:            x86_64
+macOS version:           Version 13.3 (Build 22E252)
+Darwin version:          22.4.0
+Architecture:            arm64
 Running under Rosetta:   NO
-Available memory:        8192 MB
+Available memory:        16384 MB
 Using pre-set license
 Pro License: YES
 
@@ -18,13 +18,13 @@ COMMAND LINE ARGUMENTS:
 -name
 AssetImportWorker1
 -projectPath
-/Users/nicolekercado/Desktop/game design/FarmFinalProject
+/Users/johnobrien/Desktop/FarmFinalProject
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-49609
-Successfully changed project path to: /Users/nicolekercado/Desktop/game design/FarmFinalProject
-/Users/nicolekercado/Desktop/game design/FarmFinalProject
+64900
+Successfully changed project path to: /Users/johnobrien/Desktop/FarmFinalProject
+/Users/johnobrien/Desktop/FarmFinalProject
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -54,112 +54,228 @@ Successfully changed project path to: /Users/nicolekercado/Desktop/game design/F
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [4824894976] Host "[IP] 159.91.97.246 [Port] 0 [Flags] 2 [Guid] 2603278569 [EditorId] 2603278569 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-3.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8469371712] Host "[IP] 159.91.101.220 [Port] 0 [Flags] 2 [Guid] 3885471130 [EditorId] 3885471130 [Version] 1048832 [Id] OSXEditor(0,johns-MacBook-Air-3.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [4824894976] Host "[IP] 159.91.97.246 [Port] 0 [Flags] 2 [Guid] 2603278569 [EditorId] 2603278569 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-3.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8469371712] Host "[IP] 159.91.101.220 [Port] 0 [Flags] 2 [Guid] 3885471130 [EditorId] 3885471130 [Version] 1048832 [Id] OSXEditor(0,johns-MacBook-Air-3.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 125.00 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 89.05 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.16f1 (4016570cf34f)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.16f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/nicolekercado/Desktop/game design/FarmFinalProject/Assets
+[Subsystems] Discovering subsystems at path /Users/johnobrien/Desktop/FarmFinalProject/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 645 (low power)
+ preferred device: Apple M1 (high power)
 Metal devices available: 1
-0: Intel(R) Iris(TM) Plus Graphics 645 (low power)
-Using device Intel(R) Iris(TM) Plus Graphics 645 (low power)
-Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 645
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.16f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.16f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.16f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56187
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56010
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.16f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.16f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.008531 seconds.
+Registered in 0.001240 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 103.97 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 77.61 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.923 seconds
+- Completed reload, in  0.440 seconds
 Domain Reload Profiling:
-	ReloadAssembly (924ms)
-		BeginReloadAssembly (123ms)
+	ReloadAssembly (440ms)
+		BeginReloadAssembly (57ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (635ms)
-			LoadAssemblies (124ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (314ms)
+			LoadAssemblies (57ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (168ms)
+			SetupTypeCache (74ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (360ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (192ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (104ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (186ms)
-				ProcessInitializeOnLoadMethodAttributes (58ms)
+				RefreshPlugins (78ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (85ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012598 seconds.
+Registered in 0.004811 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/nicolekercado/Desktop/game design/FarmFinalProject/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/nicolekercado/Desktop/game design/FarmFinalProject/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/johnobrien/Desktop/FarmFinalProject/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/johnobrien/Desktop/FarmFinalProject/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.428 seconds
+- Completed reload, in  0.656 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1429ms)
-		BeginReloadAssembly (131ms)
+	ReloadAssembly (656ms)
+		BeginReloadAssembly (54ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (1135ms)
-			LoadAssemblies (122ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (533ms)
+			LoadAssemblies (49ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (415ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (70ms)
-			SetupLoadedEditorAssemblies (467ms)
+			SetupTypeCache (180ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (237ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (92ms)
-				ProcessInitializeOnLoadAttributes (332ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (160ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.16f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3379 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (88.5 KB). Loaded Objects now: 3851.
-Memory consumption went from 127.6 MB to 127.5 MB.
-Total: 3.881659 ms (FindLiveObjects: 0.339718 ms CreateObjectMapping: 0.219196 ms MarkObjects: 3.147946 ms  DeleteObjects: 0.173875 ms)
+Unloading 3383 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (Unknown). Loaded Objects now: 3855.
+Memory consumption went from 127.3 MB to 127.3 MB.
+Total: 2.418125 ms (FindLiveObjects: 0.126459 ms CreateObjectMapping: 0.041125 ms MarkObjects: 2.185167 ms  DeleteObjects: 0.064917 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001836 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x28b4b3000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/johnobrien/Desktop/FarmFinalProject/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/johnobrien/Desktop/FarmFinalProject/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.616 seconds
+Domain Reload Profiling:
+	ReloadAssembly (616ms)
+		BeginReloadAssembly (77ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (477ms)
+			LoadAssemblies (30ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (184ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (197ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (42ms)
+				ProcessInitializeOnLoadAttributes (133ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3365 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (63.7 KB). Loaded Objects now: 3858.
+Memory consumption went from 126.1 MB to 126.0 MB.
+Total: 2.748292 ms (FindLiveObjects: 0.159375 ms CreateObjectMapping: 0.040333 ms MarkObjects: 2.485125 ms  DeleteObjects: 0.062666 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002264 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x282d8f000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/johnobrien/Desktop/FarmFinalProject/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/johnobrien/Desktop/FarmFinalProject/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.702 seconds
+Domain Reload Profiling:
+	ReloadAssembly (703ms)
+		BeginReloadAssembly (78ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (556ms)
+			LoadAssemblies (33ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (216ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (230ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (156ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3365 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (63.6 KB). Loaded Objects now: 3861.
+Memory consumption went from 126.1 MB to 126.1 MB.
+Total: 2.875708 ms (FindLiveObjects: 0.133000 ms CreateObjectMapping: 0.045875 ms MarkObjects: 2.623917 ms  DeleteObjects: 0.072208 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -173,535 +289,291 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1458.185103 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/GasCan.prefab
-  artifactKey: Guid(8b780173080be1e4e86f28dd1ad13d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/GasCan.prefab using Guid(8b780173080be1e4e86f28dd1ad13d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4513147c7e1c1591842af51b05b89534') in 3.445893 seconds 
+  Time since last request: 269598.311584 seconds.
+  path: Assets/TheGamingPeople/Courtyard and Entrance/Timeline2CTR.playable
+  artifactKey: Guid(06bd1832f31ec1645be78217f68086ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Courtyard and Entrance/Timeline2CTR.playable using Guid(06bd1832f31ec1645be78217f68086ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e80a42b0645eb7b638ce220568bed1') in 0.061678 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000636 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Wrench.prefab
-  artifactKey: Guid(1b6247246e1a0be4faba5ea8b45b6523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Wrench.prefab using Guid(1b6247246e1a0be4faba5ea8b45b6523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cea471fe9a85c238cda5999fd2a369a0') in 0.055275 seconds 
+  Time since last request: 433.011349 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Shed LOD 2.fbx
+  artifactKey: Guid(986afcd52b9de4640b1f5fddc0497076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Shed LOD 2.fbx using Guid(986afcd52b9de4640b1f5fddc0497076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35225e67270b690cdad8d55bd461d41a') in 0.424438 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000101 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Hammer2.prefab
-  artifactKey: Guid(7c21bc16125c0394f816b22450955d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Hammer2.prefab using Guid(7c21bc16125c0394f816b22450955d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b19f4115610c8fcb12005b3dd2c1891') in 0.037194 seconds 
+  Time since last request: 0.000203 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Shed LOD 3.fbx
+  artifactKey: Guid(f19b5ce2a0878dd46a159ce0b349d75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Shed LOD 3.fbx using Guid(f19b5ce2a0878dd46a159ce0b349d75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69250a56fd5193cbe2093fb38d9f1200') in 0.068027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.384948 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Texture Shed 2K/Shed_Door_AO.png
+  artifactKey: Guid(4423850e63aec35448b8925ff542a726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Texture Shed 2K/Shed_Door_AO.png using Guid(4423850e63aec35448b8925ff542a726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '252d2e43b6eb106ad073a8016386f4ae') in 0.066021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Texture Shed 2K/Shed_Light_Normal.png
+  artifactKey: Guid(09b335b9314f29343b1388a9125a9180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Texture Shed 2K/Shed_Light_Normal.png using Guid(09b335b9314f29343b1388a9125a9180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e1f3b3ce9d74c0e9edfa7e78e4816dd') in 0.046403 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000086 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/ScrewDriver 1.prefab
-  artifactKey: Guid(9b25f1703b9da8d4eb28fd5fe8179830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/ScrewDriver 1.prefab using Guid(9b25f1703b9da8d4eb28fd5fe8179830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c4a3f267d90eb26b8d374941cee5de3') in 0.052155 seconds 
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Texture Shed 2K/Shed_Roof_Normal.png
+  artifactKey: Guid(c77232fb9bb08504d8f25381c2fbd2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Texture Shed 2K/Shed_Roof_Normal.png using Guid(c77232fb9bb08504d8f25381c2fbd2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cc1d239132353cc3634421ccc0527b9') in 0.007855 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Bucket.prefab
-  artifactKey: Guid(cdff7da967252f94cad1dc1b01f99cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Bucket.prefab using Guid(cdff7da967252f94cad1dc1b01f99cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be95b34bd2ffda6c965b3c3d4b0189d7') in 0.180248 seconds 
+  Time since last request: 0.000042 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Texture Shed 2K/Shed_Main_AO.png
+  artifactKey: Guid(6ceb557d31875044fb2a473c6a23535a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Texture Shed 2K/Shed_Main_AO.png using Guid(6ceb557d31875044fb2a473c6a23535a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d2412459fe358a98f8c0c03fadafaad') in 0.005842 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000101 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/LittleBox1 1.prefab
-  artifactKey: Guid(68ee76a8899803640b86f31376021aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/LittleBox1 1.prefab using Guid(68ee76a8899803640b86f31376021aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b285daeb68e399b8705e4f2633fbcb99') in 0.154865 seconds 
+  Time since last request: 0.000042 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Texture Shed 2K/Shed_Roof_MetallicSmoothness.png
+  artifactKey: Guid(1ccb83eda49eb024789888c29760fe24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Texture Shed 2K/Shed_Roof_MetallicSmoothness.png using Guid(1ccb83eda49eb024789888c29760fe24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e2bd786f4f7c9e664fc567c3bcb13b9') in 0.006158 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/ScissorsForGrass.prefab
-  artifactKey: Guid(723f84f13904f514ab8f3ca3d5b57c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/ScissorsForGrass.prefab using Guid(723f84f13904f514ab8f3ca3d5b57c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3b5b24747aec51d285b2a8a922e9b22') in 0.225478 seconds 
+  Time since last request: 0.000043 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Texture Shed 2K/Shed_Second Holder_AO.png
+  artifactKey: Guid(08ead6f04b1824040b7a51a9df7ff7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Texture Shed 2K/Shed_Second Holder_AO.png using Guid(08ead6f04b1824040b7a51a9df7ff7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10916b092b6ce6a3b38ece4268752154') in 0.008085 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000106 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Spray2.prefab
-  artifactKey: Guid(a499bfc27b7db994a9cd20081dfc283d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Spray2.prefab using Guid(a499bfc27b7db994a9cd20081dfc283d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '400135d018b2b973925de63ba3085e27') in 0.055369 seconds 
+  Time since last request: 0.000051 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Texture Shed 2K/Shed_Holders_MetallicSmoothness.png
+  artifactKey: Guid(4ae2c346a1317ec45a096d6a6e39e021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Texture Shed 2K/Shed_Holders_MetallicSmoothness.png using Guid(4ae2c346a1317ec45a096d6a6e39e021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b2fa15d4f0ea3ca661aef20cca1d34c') in 0.006479 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000093 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/ShedLOD1.prefab
-  artifactKey: Guid(b518e4023293f6747bb776b6384a8f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/ShedLOD1.prefab using Guid(b518e4023293f6747bb776b6384a8f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '283f2fa839d9dece80cc3c4e5b4dd0ed') in 0.416347 seconds 
+  Time since last request: 0.000055 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Texture Shed 2K/Shed_Handle_MetallicSmoothness.png
+  artifactKey: Guid(9010b25cc5d6cde478830bf8024f31c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Texture Shed 2K/Shed_Handle_MetallicSmoothness.png using Guid(9010b25cc5d6cde478830bf8024f31c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9abc201c00fcf3b96cdeb9128e90de6') in 0.008712 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000105 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Fence2.prefab
-  artifactKey: Guid(135ba6f8587f905418f573a1b2380169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Fence2.prefab using Guid(135ba6f8587f905418f573a1b2380169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5910a1dc6c2e220046c5765fd5d8747d') in 0.081123 seconds 
+  Time since last request: 0.000060 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Texture Shed 2K/Shed_Light_AlbedoTransparency.png
+  artifactKey: Guid(58c20ca009b7f8746a42f3757ae292ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Texture Shed 2K/Shed_Light_AlbedoTransparency.png using Guid(58c20ca009b7f8746a42f3757ae292ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8893062ec335334e113c2deff4c1655d') in 0.006613 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/MiddleBridgePartAllLOD.prefab
-  artifactKey: Guid(e550825b76c9f4a4cafd2af6ba627a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/MiddleBridgePartAllLOD.prefab using Guid(e550825b76c9f4a4cafd2af6ba627a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92c1d63b42b52261ec76503b97fd0a8f') in 0.570086 seconds 
+  Time since last request: 0.000048 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Texture Shed 2K/Shed_Door_MetallicSmoothness.png
+  artifactKey: Guid(62f4c3c356a213d47b8f53fc00bba819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Texture Shed 2K/Shed_Door_MetallicSmoothness.png using Guid(62f4c3c356a213d47b8f53fc00bba819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48a99a7ce303c6991ac24f32ebd70cf2') in 0.005729 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000129 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/PotsUpsideDown.prefab
-  artifactKey: Guid(6e0ca3cc89322054fb5ae001a9081329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/PotsUpsideDown.prefab using Guid(6e0ca3cc89322054fb5ae001a9081329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '207de50fe0d0950e3202cabb5bfba386') in 0.025005 seconds 
+  Time since last request: 0.000064 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Texture Shed 2K/Shed_Mbajtse_MetallicSmoothness.png
+  artifactKey: Guid(17bf280bd8aaefc41baaab48d11f5311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Texture Shed 2K/Shed_Mbajtse_MetallicSmoothness.png using Guid(17bf280bd8aaefc41baaab48d11f5311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2b1fbee7cc657226a41b18d4aaebb8b') in 0.006120 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000096 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/ScrewDriver 2.prefab
-  artifactKey: Guid(e6ec50b9e4978294bada9a364235c3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/ScrewDriver 2.prefab using Guid(e6ec50b9e4978294bada9a364235c3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e75fe6a5ecea0f43643222a1e02a5a64') in 0.047968 seconds 
+  Time since last request: 0.000050 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Texture Shed 2K/Shed_Metals_AlbedoTransparency.png
+  artifactKey: Guid(da8a092d7d0dc3641b601f0f4a2473a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Texture Shed 2K/Shed_Metals_AlbedoTransparency.png using Guid(da8a092d7d0dc3641b601f0f4a2473a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2df1ee83a5a92d2a036fa1286aa96dea') in 0.006153 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/WoodPart2.prefab
-  artifactKey: Guid(bbd108b8f14d6044d92129ecf1eb2140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/WoodPart2.prefab using Guid(bbd108b8f14d6044d92129ecf1eb2140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a0b2b99ef6b799fb188fadddfd76d3b') in 0.032968 seconds 
+  Time since last request: 0.000039 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Texture Shed 2K/Shed_Outside Woods_Normal.png
+  artifactKey: Guid(2cddc1af10c89934188df99b192aebe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Texture Shed 2K/Shed_Outside Woods_Normal.png using Guid(2cddc1af10c89934188df99b192aebe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc68d3b8f61fbd409c0c53cd656b7a0c') in 0.006825 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000085 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Gripper.prefab
-  artifactKey: Guid(070cc6e0f08b39248b99298eabf38f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Gripper.prefab using Guid(070cc6e0f08b39248b99298eabf38f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6647855d8feba661b577a5387cd9ac0') in 0.063409 seconds 
+  Time since last request: 0.000059 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Texture Shed 2K/Shed_Holders_AlbedoTransparency.png
+  artifactKey: Guid(c31f3ef81982b594bbfd6961d5ab90f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Texture Shed 2K/Shed_Holders_AlbedoTransparency.png using Guid(c31f3ef81982b594bbfd6961d5ab90f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c44996964ef87adfbd607d1404c904c1') in 0.005355 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Hammer.prefab
-  artifactKey: Guid(8648ac77aa011604c9b885644314c5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Hammer.prefab using Guid(8648ac77aa011604c9b885644314c5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ca587ffeb447b9742009c12447cabd4') in 0.088712 seconds 
+  Time since last request: 0.000061 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Texture Shed 2K/Shed_Holders_Normal.png
+  artifactKey: Guid(746b57841e4a2c040b5c613599da115a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Texture Shed 2K/Shed_Holders_Normal.png using Guid(746b57841e4a2c040b5c613599da115a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea17d873748d1ac6e906e098eef1033d') in 0.006642 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000116 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/ScrewDriver 4.prefab
-  artifactKey: Guid(14d7a570754dc3240ba1b0a465ba37e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/ScrewDriver 4.prefab using Guid(14d7a570754dc3240ba1b0a465ba37e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13058d7e478ef76e1dedad029971f00d') in 0.082342 seconds 
+  Time since last request: 0.000057 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Texture Shed 2K/Shed_Main_AlbedoTransparency.png
+  artifactKey: Guid(3586df5b7b5678c4e8c0541c61d8ed88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Texture Shed 2K/Shed_Main_AlbedoTransparency.png using Guid(3586df5b7b5678c4e8c0541c61d8ed88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25c3b672c0e1bcc462b9474beb83ad6b') in 0.007226 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/TinCan.prefab
-  artifactKey: Guid(796e2d04825afee4086cad4a9e3fac1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/TinCan.prefab using Guid(796e2d04825afee4086cad4a9e3fac1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ad2204523f39bf04cc26deed77b28a9') in 0.061868 seconds 
+  Time since last request: 0.000044 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Texture Shed 2K/Shed_Light_MetallicSmoothness.png
+  artifactKey: Guid(7e640553758ba96448e66f345b01dbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Texture Shed 2K/Shed_Light_MetallicSmoothness.png using Guid(7e640553758ba96448e66f345b01dbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fa071e43b0de173c42700d2158005b1') in 0.006559 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000102 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Fence4.prefab
-  artifactKey: Guid(361e3d5cdb2eadb43a7e7bacd9accd86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Fence4.prefab using Guid(361e3d5cdb2eadb43a7e7bacd9accd86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58dd1f4484d9ee00f0ed72d5cb4608be') in 0.037606 seconds 
+  Time since last request: 0.000060 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Texture Shed 2K/Shed_Door_Normal.png
+  artifactKey: Guid(ec91364af63703c49b0e39bf07f4b38b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Texture Shed 2K/Shed_Door_Normal.png using Guid(ec91364af63703c49b0e39bf07f4b38b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1731021c86ee2d81a5e02dad55f18a9') in 0.007590 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000085 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Sickle.prefab
-  artifactKey: Guid(664e4fe5307f53846a375f35fd65f35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Sickle.prefab using Guid(664e4fe5307f53846a375f35fd65f35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f14d21e7f7c73e09df2b6c7383dc230') in 0.086594 seconds 
+  Time since last request: 0.000041 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Texture Shed 2K/Shed_Table_AlbedoTransparency.png
+  artifactKey: Guid(41a53f3d564a7bb4f97f1bcdde041bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Texture Shed 2K/Shed_Table_AlbedoTransparency.png using Guid(41a53f3d564a7bb4f97f1bcdde041bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '927c7f952ad86f7073b3027fe8874e0c') in 0.006270 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Fork.prefab
-  artifactKey: Guid(a0c500ad6d9391749b34c0f9f753987c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Fork.prefab using Guid(a0c500ad6d9391749b34c0f9f753987c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e764240aae68eb2d6982711489d0844') in 0.138121 seconds 
+  Time since last request: 0.000036 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Texture Shed 2K/Shed_Inside Woods_AO.png
+  artifactKey: Guid(088a3050ad191824d918ad35056f4a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Texture Shed 2K/Shed_Inside Woods_AO.png using Guid(088a3050ad191824d918ad35056f4a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0c33d0b8b8c0daef74597d2bca789e0') in 0.005252 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Barrel.prefab
-  artifactKey: Guid(d33067713c4ea684297c7899a427215b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Barrel.prefab using Guid(d33067713c4ea684297c7899a427215b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '314b5c9d0c580236b89f4ed7fd577d5d') in 0.094834 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000107 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/TinyBox.prefab
-  artifactKey: Guid(a9895e7cf5278f44eb578d759c3a2abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/TinyBox.prefab using Guid(a9895e7cf5278f44eb578d759c3a2abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9717ee1752fdb4e8d968817cb7bcbf5f') in 0.075479 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/BridgeFirstPartAllLOD.prefab
-  artifactKey: Guid(3b6e2b17278f80e40887b0aff9ecccfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/BridgeFirstPartAllLOD.prefab using Guid(3b6e2b17278f80e40887b0aff9ecccfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6816bda74b574bf00466c81aa5a43614') in 0.079462 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002650 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/nicolekercado/Desktop/game design/FarmFinalProject/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/nicolekercado/Desktop/game design/FarmFinalProject/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.944 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1946ms)
-		BeginReloadAssembly (301ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (151ms)
-		EndReloadAssembly (1461ms)
-			LoadAssemblies (115ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (602ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (81ms)
-			SetupLoadedEditorAssemblies (575ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (98ms)
-				ProcessInitializeOnLoadAttributes (412ms)
-				ProcessInitializeOnLoadMethodAttributes (42ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.84 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3361 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (64.6 KB). Loaded Objects now: 3862.
-Memory consumption went from 132.7 MB to 132.6 MB.
-Total: 5.671220 ms (FindLiveObjects: 0.437332 ms CreateObjectMapping: 0.341128 ms MarkObjects: 4.761028 ms  DeleteObjects: 0.130507 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003111 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/nicolekercado/Desktop/game design/FarmFinalProject/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/nicolekercado/Desktop/game design/FarmFinalProject/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.931 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1933ms)
-		BeginReloadAssembly (352ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (18ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (170ms)
-		EndReloadAssembly (1402ms)
-			LoadAssemblies (136ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (580ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (80ms)
-			SetupLoadedEditorAssemblies (542ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (92ms)
-				ProcessInitializeOnLoadAttributes (385ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 5.54 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3361 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (68.1 KB). Loaded Objects now: 3865.
-Memory consumption went from 132.7 MB to 132.6 MB.
-Total: 8.756318 ms (FindLiveObjects: 0.481172 ms CreateObjectMapping: 0.319495 ms MarkObjects: 6.854684 ms  DeleteObjects: 1.099745 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003055 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/nicolekercado/Desktop/game design/FarmFinalProject/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/nicolekercado/Desktop/game design/FarmFinalProject/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.39 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.789 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1789ms)
-		BeginReloadAssembly (215ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (93ms)
-		EndReloadAssembly (1391ms)
-			LoadAssemblies (106ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (550ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (81ms)
-			SetupLoadedEditorAssemblies (563ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (98ms)
-				ProcessInitializeOnLoadAttributes (394ms)
-				ProcessInitializeOnLoadMethodAttributes (44ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.08 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3361 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (64.8 KB). Loaded Objects now: 3868.
-Memory consumption went from 132.7 MB to 132.6 MB.
-Total: 5.137336 ms (FindLiveObjects: 0.525253 ms CreateObjectMapping: 0.276334 ms MarkObjects: 4.172474 ms  DeleteObjects: 0.161750 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002940 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/nicolekercado/Desktop/game design/FarmFinalProject/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/nicolekercado/Desktop/game design/FarmFinalProject/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.439 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1440ms)
-		BeginReloadAssembly (164ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (71ms)
-		EndReloadAssembly (1147ms)
-			LoadAssemblies (74ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (411ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (516ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (84ms)
-				ProcessInitializeOnLoadAttributes (374ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.01 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3361 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (68.2 KB). Loaded Objects now: 3871.
-Memory consumption went from 132.7 MB to 132.6 MB.
-Total: 4.969829 ms (FindLiveObjects: 0.450282 ms CreateObjectMapping: 0.242014 ms MarkObjects: 4.103591 ms  DeleteObjects: 0.172721 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002546 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/nicolekercado/Desktop/game design/FarmFinalProject/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/nicolekercado/Desktop/game design/FarmFinalProject/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.804 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1805ms)
-		BeginReloadAssembly (407ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (19ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (211ms)
-		EndReloadAssembly (1202ms)
-			LoadAssemblies (135ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (520ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (84ms)
-			SetupLoadedEditorAssemblies (434ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (315ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.74 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3361 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (68.1 KB). Loaded Objects now: 3874.
-Memory consumption went from 132.8 MB to 132.7 MB.
-Total: 4.102009 ms (FindLiveObjects: 0.301774 ms CreateObjectMapping: 0.206655 ms MarkObjects: 3.449357 ms  DeleteObjects: 0.143243 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003248 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/nicolekercado/Desktop/game design/FarmFinalProject/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/nicolekercado/Desktop/game design/FarmFinalProject/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.717 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1717ms)
-		BeginReloadAssembly (192ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (80ms)
-		EndReloadAssembly (1352ms)
-			LoadAssemblies (97ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (538ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (79ms)
-			SetupLoadedEditorAssemblies (544ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (93ms)
-				ProcessInitializeOnLoadAttributes (381ms)
-				ProcessInitializeOnLoadMethodAttributes (47ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.17 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3361 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (64.8 KB). Loaded Objects now: 3877.
-Memory consumption went from 132.8 MB to 132.7 MB.
-Total: 5.009796 ms (FindLiveObjects: 0.530947 ms CreateObjectMapping: 0.228544 ms MarkObjects: 4.037143 ms  DeleteObjects: 0.212097 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 3760.210596 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Shed LOD 2.fbx
-  artifactKey: Guid(986afcd52b9de4640b1f5fddc0497076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Shed LOD 2.fbx using Guid(986afcd52b9de4640b1f5fddc0497076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f42259095dd5916a3544e59b7bfb897') in 2.344398 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Materials/Table.mat
-  artifactKey: Guid(a160f66b7afd515489934541cb56ae4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Materials/Table.mat using Guid(a160f66b7afd515489934541cb56ae4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '119a9a7e391acb944ddb2163dcc12a56') in 0.341997 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Materials/Inside Woods.mat
-  artifactKey: Guid(5c3e33a831c29264eaab9fc311cffaed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Materials/Inside Woods.mat using Guid(5c3e33a831c29264eaab9fc311cffaed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f49316652654be8dc9bf5509758f5e8') in 0.049254 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000104 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Materials/Holders.mat
-  artifactKey: Guid(b08cade3e2e6dcc4f866969e3d6b999b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Materials/Holders.mat using Guid(b08cade3e2e6dcc4f866969e3d6b999b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '128f0e3a96e7b7ea1e35bf52935cc16b') in 0.043544 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Materials/Mbajtse.mat
-  artifactKey: Guid(4639d7d873f28d941b698b3acbf6bf21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Materials/Mbajtse.mat using Guid(4639d7d873f28d941b698b3acbf6bf21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3d3bf3820e0c211a909ef2d1194509d') in 0.047626 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Materials/Light.mat
-  artifactKey: Guid(867a949cf75b90347afdd6bbb2d24620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Materials/Light.mat using Guid(867a949cf75b90347afdd6bbb2d24620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74bc79f22cc0d1612a43b9d1b75fc86c') in 0.034410 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000136 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Materials/Main.mat
-  artifactKey: Guid(023d1bdea480a2d4d9f12b76b99a63a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Materials/Main.mat using Guid(023d1bdea480a2d4d9f12b76b99a63a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee0947726ffd24bbbc2b10a32cd5bd42') in 0.037951 seconds 
+  Time since last request: 18.636101 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Materials/Handle.mat
+  artifactKey: Guid(4e247683284a0ee4988dbb9173fa94bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Materials/Handle.mat using Guid(4e247683284a0ee4988dbb9173fa94bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5729a0ca25644a61bc5d503835905dda') in 0.057427 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000067 seconds.
-  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Materials/Second Holder.mat
-  artifactKey: Guid(1f210fe6ced5ab5428ce68e53568a267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Materials/Second Holder.mat using Guid(1f210fe6ced5ab5428ce68e53568a267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b073742f18aac587de3f4dcf6eb448df') in 0.042484 seconds 
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Materials/Roof.mat
+  artifactKey: Guid(2384935786587a047872286f750eee5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Materials/Roof.mat using Guid(2384935786587a047872286f750eee5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5deb2f300829ebaa1fa14b1577dd597f') in 0.012046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Materials/Metals.mat
+  artifactKey: Guid(fcb623ebae7c9704b953ef09b7f669d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Materials/Metals.mat using Guid(fcb623ebae7c9704b953ef09b7f669d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab50bdd2488b439e2e8921908093b9b3') in 0.016844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Materials/Inside Woods.mat
+  artifactKey: Guid(5c3e33a831c29264eaab9fc311cffaed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Materials/Inside Woods.mat using Guid(5c3e33a831c29264eaab9fc311cffaed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb7b97d546654657857c5655fbe06f4') in 0.014897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Materials/Mbajtse.mat
+  artifactKey: Guid(4639d7d873f28d941b698b3acbf6bf21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Materials/Mbajtse.mat using Guid(4639d7d873f28d941b698b3acbf6bf21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d5659a2a6f903bd89e39c171ed13217') in 0.013079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Materials/Main.mat
+  artifactKey: Guid(023d1bdea480a2d4d9f12b76b99a63a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Materials/Main.mat using Guid(023d1bdea480a2d4d9f12b76b99a63a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eb3db6bd01ce450ad1273b325e67736') in 0.013272 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001705 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x282cdf000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/johnobrien/Desktop/FarmFinalProject/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/johnobrien/Desktop/FarmFinalProject/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.627 seconds
+Domain Reload Profiling:
+	ReloadAssembly (628ms)
+		BeginReloadAssembly (115ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (453ms)
+			LoadAssemblies (38ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (191ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (170ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (37ms)
+				ProcessInitializeOnLoadAttributes (115ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3366 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (63.8 KB). Loaded Objects now: 3913.
+Memory consumption went from 145.3 MB to 145.2 MB.
+Total: 2.270666 ms (FindLiveObjects: 0.117875 ms CreateObjectMapping: 0.048167 ms MarkObjects: 2.030458 ms  DeleteObjects: 0.074042 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002081 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x282cdf000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/johnobrien/Desktop/FarmFinalProject/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/johnobrien/Desktop/FarmFinalProject/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.570 seconds
+Domain Reload Profiling:
+	ReloadAssembly (570ms)
+		BeginReloadAssembly (74ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (438ms)
+			LoadAssemblies (29ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (178ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (171ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (37ms)
+				ProcessInitializeOnLoadAttributes (115ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3366 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (63.6 KB). Loaded Objects now: 3916.
+Memory consumption went from 145.3 MB to 145.2 MB.
+Total: 2.163417 ms (FindLiveObjects: 0.115250 ms CreateObjectMapping: 0.050625 ms MarkObjects: 1.947000 ms  DeleteObjects: 0.049959 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

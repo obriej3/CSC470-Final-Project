@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/LowPolyFarmLite/Scenes/LowPolyFarmLite_Overview.unity
-=======
 - path: Assets/Scenes/InsideOfShed.unity
->>>>>>> 497d5b99c63f5479311da8673396af7cef1a6750
   isLoaded: 1
   isActive: 1
   isSubScene: 0
