@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class EnlargeItem : MonoBehaviour
 {
+        public ShedController shedController;
         // Global variables
         Vector3 scaleChange;
 
@@ -22,6 +23,14 @@ public class EnlargeItem : MonoBehaviour
     public void OnMouseEnter()
     {
         transform.localScale += scaleChange;
+    }
+
+    public void OnMouseOver()
+    {
+        // Text for more info appears
+
+        // If "I" key is pressed, show menu
+
     }
 
     public void OnMouseExit()
