@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class EnlargeItem : MonoBehaviour
 {
+        // Global variables
+        Vector3 scaleChange;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        scaleChange = new Vector3(1.0f, 1.0f, 1.0f);
     }
 
     // Update is called once per frame
@@ -16,13 +19,13 @@ public class EnlargeItem : MonoBehaviour
         
     }
 
-    public void OnMouseOver()
+    public void OnMouseEnter()
     {
-        transform.localScale = new Vector3(3F, 8f, 3f);
+        transform.localScale += scaleChange;
     }
 
     public void OnMouseExit()
     {
-        transform.localScale = new Vector3(2, 7, 2); 
+        transform.localScale -= scaleChange; 
     }
 }
