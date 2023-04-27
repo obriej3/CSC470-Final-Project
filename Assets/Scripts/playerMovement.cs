@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class playerMovement : MonoBehaviour
 {
@@ -11,6 +12,10 @@ public class playerMovement : MonoBehaviour
     public AudioSource audioSource;
     public AudioClip step;
     public float turnSpeed = 140.0f;
+
+    // Relevant to Farming
+    public int cabbageSeed = 3;
+    public GameObject cabbagePlot;
 
     // Start is called before the first frame update
     void Start()
@@ -61,4 +66,20 @@ public class playerMovement : MonoBehaviour
         audioSource.PlayOneShot(step);
     }
 
+    // Handles Collision with Farm Plots and Entering the Shed
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("cabbagePlot") && cabbageSeed > 0)
+        {
+            cabbagePlot.GetComponent<Renderer>().material.color = Color.yellow;
+            Debug.Log("HIt");
+        }
+        
+        if (collision.gameObject.CompareTag("Shed")) {
+            SceneManager.LoadScene("InsideOfShed");
+        }
+
+    }
 }
+
+
