@@ -50,4 +50,35 @@ public class ShedController : MonoBehaviour
             sickleInfo.SetActive(true);
         }
     }
+
+    // Methods for exiting tools' pop-ups
+    public void ExitHoeInfo()
+    {
+        hoeActive = false;
+        hoeInfo.SetActive(false);
+    }
+
+    public void ExitShovelInfo()
+    {
+        shovelActive = false;
+        shovelInfo.SetActive(false);
+    }
+    
+    public void ExitWaterCanInfo()
+    {
+        watercanActive = false;
+        watercanInfo.SetActive(false);
+    }
+
+    public void ExitScissorsInfo()
+    {
+        scissorsActive = false;
+        scissorsInfo.SetActive(false);
+    }
+
+    public void ExitSickleInfo()
+    {
+        sickleActive = false;
+        sickleInfo.SetActive(false);
+    }
 }
