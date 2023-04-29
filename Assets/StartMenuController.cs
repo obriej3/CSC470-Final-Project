@@ -21,4 +21,10 @@ public class StartMenuController : MonoBehaviour
     {
         SceneManager.LoadScene("MainGameFarm");
     }
+
+    public void ExitGame()
+    {
+        //Application.Quit();
+        UnityEditor.EditorApplication.isPlaying = false;
+    }
 }

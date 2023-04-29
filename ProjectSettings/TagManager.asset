@@ -6,6 +6,11 @@ TagManager:
   tags:
   - cabbagePlot
   - shed
+  - hoe
+  - sickle
+  - water can
+  - scissors
+  - shovel
   layers:
   - Default
   - TransparentFX
