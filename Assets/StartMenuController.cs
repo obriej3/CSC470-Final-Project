@@ -24,7 +24,7 @@ public class StartMenuController : MonoBehaviour
 
     public void ExitGame()
     {
-        //Application.Quit();
+        Application.Quit();
         UnityEditor.EditorApplication.isPlaying = false;
     }
 }

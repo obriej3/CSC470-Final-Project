@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
+using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
@@ -8,6 +10,10 @@ public class GameController : MonoBehaviour
     public GameObject menuPanel;
     public GameObject instructionsPanel;
     public GameObject menuButton;
+    public TextMeshProUGUI balanceText;
+
+    static public int balance; 
+    static public bool balancePending;
 
     // Start is called before the first frame update
     void Start()
@@ -15,12 +21,32 @@ public class GameController : MonoBehaviour
         menuButton.SetActive(true);
         menuPanel.SetActive(false);
         instructionsPanel.SetActive(false);
+
+        // Set balance to 0 at start
+        UpdateBalance(0);
+        DontDestroyOnLoad(gameObject);
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    private void Awake()
+    {
+        if(GameObject.Find("GameController") == null)
+        {
+            DontDestroyOnLoad(gameObject);
+        }
+    }
+
+    // Update the player's balance
+    public void UpdateBalance(int scoreToAdd)
+    {
+        balance += scoreToAdd;
+        balanceText.text = "Balance: $" + balance;
+        balancePending = false;
     }
 
     public void LoadMenu()
@@ -50,5 +76,6 @@ public class GameController : MonoBehaviour
     public void ExitGame()
     {
         Application.Quit();
+        UnityEditor.EditorApplication.isPlaying = false;
     }
 }
