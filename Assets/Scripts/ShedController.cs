@@ -10,6 +10,7 @@ public class ShedController : MonoBehaviour
     public GameObject watercanInfo;
     public GameObject scissorsInfo;
     public GameObject sickleInfo;
+    public GameObject shedInfo;
 
     public bool hoeActive;
     public bool shovelActive;
@@ -80,5 +81,15 @@ public class ShedController : MonoBehaviour
     {
         sickleActive = false;
         sickleInfo.SetActive(false);
+    }
+
+    public void OpenShedInfo()
+    {
+        shedInfo.SetActive(true);
+    }
+    
+    public void ExitShedInfo()
+    {
+        shedInfo.SetActive(false);
     }
 }

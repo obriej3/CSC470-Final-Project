@@ -11,6 +11,7 @@ public class playerMovement : MonoBehaviour
 
     public AudioSource audioSource;
     public AudioClip step;
+    public float speed = 2.0f;
     public float turnSpeed = 140.0f;
 
     // Relevant to Farming
@@ -35,14 +36,17 @@ public class playerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float verticalInput = Input.GetAxis("Vertical");
-        float horizontalInput = Input.GetAxis("Horizontal");
-        transform.Rotate(Vector3.up, Time.deltaTime * turnSpeed * horizontalInput);
+        //float verticalInput = Input.GetAxis("Vertical");
+        //float horizontalInput = Input.GetAxis("Horizontal");
+        //transform.Rotate(Vector3.up, Time.deltaTime * turnSpeed * horizontalInput);
+        transform.Translate((Vector3.forward * Input.GetAxis("Vertical") * speed) * Time.deltaTime);
+        //transform.Rotate(Vector3.up, Input.GetAxis("Horizontal") * Time.deltaTime * turnSpeed);
+        transform.Rotate(new Vector3(0, turnSpeed * Input.GetAxis("Horizontal") * Time.deltaTime, 0));
 
         // If W key is down, walk forward
-        if(Input.GetKey(KeyCode.W))
+        if(Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
         {
-            anim.SetBool("isWalking", true);
+            anim.SetBool("isWalking", true);   
         }
         else
         {
@@ -75,7 +79,7 @@ public class playerMovement : MonoBehaviour
             Debug.Log("HIt");
         }
         
-        if (collision.gameObject.CompareTag("Shed")) {
+        if (collision.gameObject.CompareTag("shed")) {
             SceneManager.LoadScene("InsideOfShed");
         }
 

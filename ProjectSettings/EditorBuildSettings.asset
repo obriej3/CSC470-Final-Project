@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainGameFarm.unity
     guid: 7ab22b572d12e406eb855b9c2b67e9a7
+  - enabled: 1
+    path: Assets/Scenes/InsideOfShed.unity
+    guid: 3523cb8887c584dc4b1e36414b51132d
   m_configObjects: {}
