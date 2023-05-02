@@ -2360,6 +2360,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 955759274}
   step: {fileID: 8300000, guid: cf9e66e42c29041cca0250dcb305cb93, type: 3}
+  watering: {fileID: 8300000, guid: c6773bd524a874623933d6ab6ce18303, type: 3}
   speed: 2
   turnSpeed: 140
   cabbageSeed: 1
@@ -2375,8 +2376,8 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 0.059
+  m_PlayOnAwake: 0
+  m_Volume: 0.21
   m_Pitch: 1
   Loop: 0
   Mute: 0

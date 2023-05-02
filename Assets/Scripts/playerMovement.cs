@@ -11,6 +11,7 @@ public class playerMovement : MonoBehaviour
 
     public AudioSource audioSource;
     public AudioClip step;
+    public AudioClip watering;
     public float speed = 2.0f;
     public float turnSpeed = 140.0f;
 
@@ -62,12 +63,43 @@ public class playerMovement : MonoBehaviour
         {
             anim.SetBool("isRunning", false);
         }
+
+        // If left click, water plant
+        if(Input.GetKeyDown(KeyCode.Mouse0))
+        {
+            anim.SetBool("isWatering", true);
+        }
+        else
+        {
+            anim.SetBool("isWatering", false);
+        }
+
+        // If K key is down, kneel
+        if(Input.GetKeyDown(KeyCode.K))
+        {
+            anim.SetBool("isKneeling", true);
+        }
+        else
+        {
+            anim.SetBool("isKneeling", false);
+        }
     } 
 
     private void Step()
     {
-
+        audioSource.volume = 0.05f;
         audioSource.PlayOneShot(step);
+    }
+
+    private void StartWatering()
+    {
+        audioSource.volume = 2.5f;
+        audioSource.PlayOneShot(watering);
+    }
+
+    private void StopWatering()
+    {
+        audioSource.Pause();
     }
 
     // Handles Collision with Farm Plots and Entering the Shed
