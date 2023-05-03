@@ -11,11 +11,17 @@ public class ShedController : MonoBehaviour
     public GameObject scissorsInfo;
     public GameObject sickleInfo;
     public GameObject shedInfo;
+    public GameObject InventoryFullPanel;
 
+    [HideInInspector]
     public bool hoeActive;
+    [HideInInspector]
     public bool shovelActive;
+    [HideInInspector]
     public bool watercanActive;
+    [HideInInspector]
     public bool scissorsActive;
+    [HideInInspector]
     public bool sickleActive;
 
     // Start is called before the first frame update
@@ -91,5 +97,10 @@ public class ShedController : MonoBehaviour
     public void ExitShedInfo()
     {
         shedInfo.SetActive(false);
+    }
+
+    public void ExitInventoryFull()
+    {
+        InventoryFullPanel.SetActive(false);
     }
 }

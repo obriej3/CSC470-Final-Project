@@ -9,6 +9,8 @@ public class playerMovement : MonoBehaviour
     Animator anim;
     private Rigidbody rb;
 
+    public GameObject ToolsPanel;
+
     public AudioSource audioSource;
     public AudioClip step;
     public AudioClip watering;
@@ -112,7 +114,8 @@ public class playerMovement : MonoBehaviour
         }
         
         if (collision.gameObject.CompareTag("shed")) {
-            SceneManager.LoadScene("InsideOfShed");
+            ToolsPanel.SetActive(true);
+            //SceneManager.LoadScene("InsideOfShed");
         }
 
     }
