@@ -13,6 +13,7 @@ TagManager:
   - shovel
   - tomatoCrate
   - cabbageCrate
+  - radishCrate
   layers:
   - Default
   - TransparentFX

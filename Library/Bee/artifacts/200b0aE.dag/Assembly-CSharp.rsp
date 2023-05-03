@@ -352,6 +352,7 @@
 "Assets/IconGenerator/IconGeneratorUIExample.cs"
 "Assets/IconGenerator/TextureScale.cs"
 "Assets/QuickOutline/Scripts/Outline.cs"
+"Assets/RootVegetables/Scripts/Rotate.cs"
 "Assets/Scripts/CameraController.cs"
 "Assets/Scripts/DayNightCycle.cs"
 "Assets/Scripts/EnlargeItem.cs"

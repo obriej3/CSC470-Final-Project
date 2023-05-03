@@ -20,7 +20,7 @@ public class playerMovement : MonoBehaviour
     // Crop Pop-Ups
     public GameObject tomatoPanel;
     public GameObject cabbagePanel;
-    public GameObject mysteryPanel; 
+    public GameObject radishPanel; 
 
     // Relevant to Farming
     public int cabbageSeed = 3;
@@ -123,12 +123,20 @@ public class playerMovement : MonoBehaviour
             //SceneManager.LoadScene("InsideOfShed");
         }
 
-        if (collision.gameObject.CompareTag("tomatoCrate")) {
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("tomatoCrate")) {
             tomatoPanel.SetActive(true);
         }
 
-        if (collision.gameObject.CompareTag("cabbageCrate")) {
+        if (other.gameObject.CompareTag("cabbageCrate")) {
             cabbagePanel.SetActive(true);
+        }
+
+        if (other.gameObject.CompareTag("radishCrate")) {
+            radishPanel.SetActive(true);
         }
     }
 
@@ -140,6 +148,11 @@ public class playerMovement : MonoBehaviour
     public void ExitCabbage()
     {
         cabbagePanel.SetActive(false);
+    }
+
+    public void ExitRadish()
+    {
+        radishPanel.SetActive(false);
     }
 }
 
