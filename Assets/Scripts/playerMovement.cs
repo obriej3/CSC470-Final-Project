@@ -17,6 +17,11 @@ public class playerMovement : MonoBehaviour
     public float speed = 2.0f;
     public float turnSpeed = 140.0f;
 
+    // Crop Pop-Ups
+    public GameObject tomatoPanel;
+    public GameObject cabbagePanel;
+    public GameObject mysteryPanel; 
+
     // Relevant to Farming
     public int cabbageSeed = 3;
     public GameObject cabbagePlot;
@@ -118,6 +123,23 @@ public class playerMovement : MonoBehaviour
             //SceneManager.LoadScene("InsideOfShed");
         }
 
+        if (collision.gameObject.CompareTag("tomatoCrate")) {
+            tomatoPanel.SetActive(true);
+        }
+
+        if (collision.gameObject.CompareTag("cabbageCrate")) {
+            cabbagePanel.SetActive(true);
+        }
+    }
+
+    public void ExitTomato()
+    {
+        tomatoPanel.SetActive(false);
+    }
+
+    public void ExitCabbage()
+    {
+        cabbagePanel.SetActive(false);
     }
 }
 

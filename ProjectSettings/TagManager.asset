@@ -11,6 +11,8 @@ TagManager:
   - water can
   - scissors
   - shovel
+  - tomatoCrate
+  - cabbageCrate
   layers:
   - Default
   - TransparentFX
